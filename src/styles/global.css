@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+  font-family: 'SVN-Transformer';
+  src: url('../../public/assets/fonts/SVN-Transformer.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../../public/assets/fonts/SVN-Gotham-Regular.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}

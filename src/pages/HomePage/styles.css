@@ -1,0 +1,33 @@
+.bg-homepage {
+  background-image: url('../../../public/assets/images/backgrounds/bg-home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.score-bar {
+  background-image: url('../../../public/assets/images/backgrounds/score-bar.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 60px;
+}
+
+.popup-cbd {
+  background-image: url('../../../public/assets/images/backgrounds/popup-cbd.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay-blur {
+  position: absolute;
+  backdrop-filter: blur(4px);
+  width: 779px;
+  height: 360px;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
